@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-#Hostname: learn.selfmade.ninja
 
 import socket
 from threading import Thread

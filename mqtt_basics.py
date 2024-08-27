@@ -11,7 +11,7 @@ def on_message(client, userdata, message):
 	
 def on_connect(client, userdata, flags, rc):
 	print("Connected.")
-	client.subscribe('lahtp-sockets-group')
+	client.subscribe('group-chat')
 
 client = mqtt.Client()
 client.on_message = on_message

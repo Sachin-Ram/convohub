@@ -8,7 +8,7 @@ HOST = 'broker.hivemq.com'
 PORT = 1883
 TIMEOUT = 60
 f = None
-TOPIC = 'lahtp-sockets-group'
+TOPIC = 'group-chat'
 
 class SubThread(Thread):
 	def __init__(self):
